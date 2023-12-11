@@ -86,8 +86,8 @@ class PipeWalker:
                 self._currentDir = Dir.UP if self._currentDir == Dir.RIGHT else Dir.LEFT
                 self._replaceCurrentTile("╝")
             case "F":
-                self._replaceCurrentTile("╔")
                 self._currentDir = Dir.RIGHT if self._currentDir == Dir.UP else Dir.DOWN
+                self._replaceCurrentTile("╔")
             case "7":
                 self._currentDir = Dir.DOWN if self._currentDir == Dir.RIGHT else Dir.LEFT
                 self._replaceCurrentTile("╗")
