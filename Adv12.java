@@ -4,7 +4,6 @@
  * Day 12: Hot Springs (not as elegant as the Python solution)
  * 
  * @auhor Daniel Herding
-"""
  */
 
 import java.io.*;
