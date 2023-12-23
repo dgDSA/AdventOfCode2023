@@ -21,9 +21,6 @@ class Point:
         self.y = y
         self.z = z
     
-    def getZ(self):
-        return self.z
-    
     def __eq__(self, other):
         return self.x == other.x and self.y == other.y and self.z == other.z
     
